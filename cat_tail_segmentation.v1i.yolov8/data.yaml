@@ -1,0 +1,13 @@
+train: ./datasets/train/images
+val: ./datasets/valid/images
+# test: ./datasets/test/images
+
+nc: 1
+names: ['cat-tail']
+
+roboflow:
+  workspace: s-workspace-w8noc
+  project: cat_tail_segmentation
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/s-workspace-w8noc/cat_tail_segmentation/dataset/1
