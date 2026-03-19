@@ -143,10 +143,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.jpeg
-.jpg
-.txt
-.png
+*.jpeg
+*.jpg
+*.txt
+*.png
 
 # Spyder project settings
 .spyderproject

@@ -5,9 +5,12 @@ model_path = r'D:\Dev\intehros\intehros_test\runs\segment\cat_tail_final\experim
 model = YOLO(model_path)
 
 # Проверка на тестовом фото
-test_image = (
-    r'D:\Dev\intehros\intehros_test\cats_photo\my_cat.jpg'  #  свой путь
-)
+test_image = r'D:\Dev\intehros\intehros_test\test_cat\test_cat2.jpg'
 results = model(test_image)
+
 results[0].show()  # confidence score
 results[0].save('result.jpg')
+print('\n\n\n\n\n\n')
+print(results)
+print('\n\n\n\n\n\n')
+print('results[0]', results[0])
